@@ -2,6 +2,7 @@ package org.example;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!!");
+        Addition addition = new Addition();
+        System.out.println(addition.calculate(2,3));
     }
 }
