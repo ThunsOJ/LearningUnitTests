@@ -11,7 +11,7 @@ class AdditionTest {
     @Test
     void calculate() {
         int a = 3, b = 4;
-        assertNotEquals(a + b, addition.calculate(a,b));
+        assertEquals(a + b, addition.calculate(a,b));
         assertNotEquals(a - b, addition.calculate(a, b));
     }
 }
